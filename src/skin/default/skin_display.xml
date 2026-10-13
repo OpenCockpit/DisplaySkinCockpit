@@ -176,7 +176,7 @@
 	</screen>
 	<screen name="IMDbLCDScreen" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<eLabel font="FdLcD;45" halign="center" position="0,0" size="392,240" valign="center">IMDB Search</eLabel>
+		<eLabel font="FdLcD;45" halign="center" position="0,0" size="392,240" text="IMDB Search" valign="center"/>
 	</screen>
 	<screen name="InfoBarMoviePlayerSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
