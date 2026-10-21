@@ -59,12 +59,12 @@
 	<screen name="ChoiceBoxSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
 		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
-		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,170" source="parent.summary_selection" transparent="1" zPosition="2"/>
+		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,165" source="parent.summary_selection" transparent="1" zPosition="2"/>
 	</screen>
 	<screen name="CommitInfoSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
 		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
-		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,175" source="commitText" transparent="1" zPosition="2"/>
+		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,165" source="commitText" transparent="1" zPosition="2"/>
 	</screen>
 	<screen name="EMCSelectionSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
@@ -348,7 +348,7 @@
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
 		<widget font="FdLcD;55" halign="center" noWrap="1" position="0,0" render="Label" size="392,65" source="SetupTitle" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" halign="center" noWrap="1" position="0,65" render="Label" size="392,55" source="SetupEntry" transparent="1" zPosition="2"/>
-		<widget font="FdLcD;45" halign="center" position="0,120" render="Label" size="392,120" source="SetupValue" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;45" halign="center" position="0,120" render="Label" size="392,115" source="SetupValue" transparent="1" valign="center" zPosition="2"/>
 	</screen>
 	<screen name="SkinSelectorSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>

@@ -31,7 +31,7 @@ screen:
         halign: "center"
         position: "0,120"
         render: "Label"
-        size: "$screen_width-4,120"
+        size: "$screen_width-4,115"
         source: "SetupValue"
         transparent: "1"
         valign: "center"
