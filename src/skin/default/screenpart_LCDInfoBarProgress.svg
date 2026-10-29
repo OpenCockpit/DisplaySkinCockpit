@@ -1,9 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1956" height="228" viewBox="0 0 1956 228">
 <metadata id="xml2svg-source">{&quot;fragment&quot;: true, &quot;screens&quot;: [{&quot;tag&quot;: &quot;screen&quot;, &quot;attrs&quot;: {&quot;name&quot;: &quot;screenpart_LCDInfoBarProgress&quot;, &quot;size&quot;: &quot;1916,160&quot;}, &quot;children&quot;: [{&quot;tag&quot;: &quot;widget&quot;, &quot;attrs&quot;: {&quot;borderColor&quot;: &quot;FdLcdAmber&quot;, &quot;borderWidth&quot;: &quot;2&quot;, &quot;position&quot;: &quot;0,140&quot;, &quot;render&quot;: &quot;Progress&quot;, &quot;size&quot;: &quot;1916,20&quot;, &quot;source&quot;: &quot;session.Event_Now&quot;, &quot;transparent&quot;: &quot;1&quot;, &quot;zPosition&quot;: &quot;2&quot;}, &quot;children&quot;: [{&quot;tag&quot;: &quot;convert&quot;, &quot;attrs&quot;: {&quot;type&quot;: &quot;EventTime&quot;}, &quot;children&quot;: null, &quot;text&quot;: &quot;Progress&quot;}], &quot;text&quot;: null}], &quot;text&quot;: null}]}</metadata>
 <rect x="0" y="0" width="1956" height="228" fill="#f4f4f4"/>
-<text x="20" y="38" font-family="sans-serif" font-size="16" font-weight="bold" fill="#111111">screenpart_LCDInfoBarProgress (1916x160)</text>
+<text x="20" y="38" font-family="sans-serif" font-size="16" font-weight="bold" fill="#111111">screenpart_LCDInfoBarProgress (1916x160) <tspan font-family="monospace" font-size="12" font-weight="normal" fill="#555555">ids = line in screenpart_LCDInfoBarProgress.ymlinc</tspan></text>
 <g data-screen="0" transform="translate(20,48)">
 <rect x="0" y="0" width="1916" height="160" fill="#ffffff" stroke="#999999" stroke-width="1"/>
-<g><rect data-ref="0:0" x="0" y="140" width="1916" height="20" fill="#4e79a7" fill-opacity="0.45" stroke="#000000" stroke-opacity="0.6" stroke-width="1"><title>&lt;widget&gt; borderColor=&quot;FdLcdAmber&quot; borderWidth=&quot;2&quot; position=&quot;0,140&quot; render=&quot;Progress&quot; size=&quot;1916,20&quot; source=&quot;session.Event_Now&quot; transparent=&quot;1&quot; zPosition=&quot;2&quot;</title></rect><text x="4" y="154" font-family="monospace" font-size="12" fill="#000000">session.Event_Now (Progress)</text></g>
+<rect data-ref="0:0" data-src="screenpart_LCDInfoBarProgress.ymlinc:1" x="0" y="140" width="1916" height="20" fill="#4e79a7" fill-opacity="0.45" stroke="#000000" stroke-opacity="0.6" stroke-width="1"><title>screenpart_LCDInfoBarProgress.ymlinc:1
+&lt;widget&gt; borderColor=&quot;FdLcdAmber&quot; borderWidth=&quot;2&quot; position=&quot;0,140&quot; render=&quot;Progress&quot; size=&quot;1916,20&quot; source=&quot;session.Event_Now&quot; transparent=&quot;1&quot; zPosition=&quot;2&quot;</title></rect>
+<g pointer-events="none" font-family="monospace" font-size="12" fill="#000000" stroke="#ffffff" stroke-width="3" stroke-opacity="0.85" stroke-linejoin="round" paint-order="stroke">
+<text x="4" y="154"><tspan font-weight="bold">#1</tspan> session.Event_Now (Progress)</text>
+</g>
 </g>
 </svg>

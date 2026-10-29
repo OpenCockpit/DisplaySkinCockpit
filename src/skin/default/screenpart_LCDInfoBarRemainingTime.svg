@@ -1,9 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="432" height="1148" viewBox="0 0 432 1148">
 <metadata id="xml2svg-source">{&quot;fragment&quot;: true, &quot;screens&quot;: [{&quot;tag&quot;: &quot;screen&quot;, &quot;attrs&quot;: {&quot;name&quot;: &quot;screenpart_LCDInfoBarRemainingTime&quot;, &quot;size&quot;: &quot;392,1080&quot;}, &quot;children&quot;: [{&quot;tag&quot;: &quot;widget&quot;, &quot;attrs&quot;: {&quot;font&quot;: &quot;FdLcD;60&quot;, &quot;halign&quot;: &quot;right&quot;, &quot;position&quot;: &quot;198,1010&quot;, &quot;render&quot;: &quot;Label&quot;, &quot;size&quot;: &quot;194,70&quot;, &quot;source&quot;: &quot;session.Event_Now&quot;, &quot;transparent&quot;: &quot;1&quot;, &quot;valign&quot;: &quot;center&quot;}, &quot;children&quot;: [{&quot;tag&quot;: &quot;convert&quot;, &quot;attrs&quot;: {&quot;type&quot;: &quot;EventTime&quot;}, &quot;children&quot;: null, &quot;text&quot;: &quot;Remaining&quot;}, {&quot;tag&quot;: &quot;convert&quot;, &quot;attrs&quot;: {&quot;type&quot;: &quot;RemainingToText&quot;}, &quot;children&quot;: null, &quot;text&quot;: &quot;VFDOnlyMinutes&quot;}], &quot;text&quot;: null}], &quot;text&quot;: null}]}</metadata>
 <rect x="0" y="0" width="432" height="1148" fill="#f4f4f4"/>
-<text x="20" y="38" font-family="sans-serif" font-size="16" font-weight="bold" fill="#111111">screenpart_LCDInfoBarRemainingTime (392x1080)</text>
+<text x="20" y="38" font-family="sans-serif" font-size="16" font-weight="bold" fill="#111111">screenpart_LCDInfoBarRemainingTime (392x1080) <tspan font-family="monospace" font-size="12" font-weight="normal" fill="#555555">ids = line in screenpart_LCDInfoBarRemainingTime.ymlinc</tspan></text>
 <g data-screen="0" transform="translate(20,48)">
 <rect x="0" y="0" width="392" height="1080" fill="#ffffff" stroke="#999999" stroke-width="1"/>
-<g><rect data-ref="0:0" x="198" y="1010" width="194" height="70" fill="#4e79a7" fill-opacity="0.45" stroke="#000000" stroke-opacity="0.6" stroke-width="1"><title>&lt;widget&gt; font=&quot;FdLcD;60&quot; halign=&quot;right&quot; position=&quot;198,1010&quot; render=&quot;Label&quot; size=&quot;194,70&quot; source=&quot;session.Event_Now&quot; transparent=&quot;1&quot; valign=&quot;center&quot;</title></rect><text x="202" y="1024" font-family="monospace" font-size="12" fill="#000000">session.Event_Now (Label)</text></g>
+<rect data-ref="0:0" data-src="screenpart_LCDInfoBarRemainingTime.ymlinc:1" x="198" y="1010" width="194" height="70" fill="#4e79a7" fill-opacity="0.45" stroke="#000000" stroke-opacity="0.6" stroke-width="1"><title>screenpart_LCDInfoBarRemainingTime.ymlinc:1
+&lt;widget&gt; font=&quot;FdLcD;60&quot; halign=&quot;right&quot; position=&quot;198,1010&quot; render=&quot;Label&quot; size=&quot;194,70&quot; source=&quot;session.Event_Now&quot; transparent=&quot;1&quot; valign=&quot;center&quot;</title></rect>
+<g pointer-events="none" font-family="monospace" font-size="12" fill="#000000" stroke="#ffffff" stroke-width="3" stroke-opacity="0.85" stroke-linejoin="round" paint-order="stroke">
+<text x="202" y="1024"><tspan font-weight="bold">#1</tspan> session.Event_Now (La…</text>
+</g>
 </g>
 </svg>
