@@ -5,6 +5,7 @@
 		<color name="FdLcdRed" value="#00f50808"/>
 		<color name="FdLcdBlack" value="#00000000"/>
 		<color name="FdLcdAmber" value="#fcc800"/>
+		<color name="FdLcdWhite" value="#ffffff"/>
 	</colors>
 	<fonts>
 		<font filename="nmsbd.ttf" name="FdLcD" scale="100"/>
@@ -87,11 +88,11 @@
 		<widget borderColor="FdLcdAmber" borderWidth="2" position="0,140" render="Progress" size="392,20" source="parent.Event" transparent="1" zPosition="2">
 			<convert type="EventTime">Progress</convert>
 		</widget>
-		<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="198,70" source="parent.Event" transparent="1" valign="center">
+		<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="200,70" source="parent.Event" transparent="1" valign="center">
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<widget font="FdLcD;60" halign="right" position="198,170" render="Label" size="194,70" source="parent.Event" transparent="1" valign="center">
+		<widget font="FdLcD;60" halign="right" position="200,170" render="Label" size="196,70" source="parent.Event" transparent="1" valign="center">
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">VFDOnlyMinutes</convert>
 		</widget>
@@ -104,11 +105,11 @@
 		<widget borderColor="FdLcdAmber" borderWidth="2" position="0,140" render="Progress" size="392,20" source="parent.Event" transparent="1" zPosition="2">
 			<convert type="EventTime">Progress</convert>
 		</widget>
-		<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="198,70" source="parent.Event" transparent="1" valign="center">
+		<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="200,70" source="parent.Event" transparent="1" valign="center">
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<widget font="FdLcD;60" halign="right" position="198,170" render="Label" size="194,70" source="parent.Event" transparent="1" valign="center">
+		<widget font="FdLcD;60" halign="right" position="200,170" render="Label" size="196,70" source="parent.Event" transparent="1" valign="center">
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">VFDOnlyMinutes</convert>
 		</widget>
@@ -131,11 +132,11 @@
 		<widget borderColor="FdLcdAmber" borderWidth="2" position="0,140" render="Progress" size="392,20" source="parent.Event" transparent="1" zPosition="2">
 			<convert type="EventTime">Progress</convert>
 		</widget>
-		<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="198,70" source="parent.Event" transparent="1" valign="center">
+		<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="200,70" source="parent.Event" transparent="1" valign="center">
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<widget font="FdLcD;60" halign="right" position="198,170" render="Label" size="194,70" source="parent.Event" transparent="1" valign="center">
+		<widget font="FdLcD;60" halign="right" position="200,170" render="Label" size="196,70" source="parent.Event" transparent="1" valign="center">
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">VFDOnlyMinutes</convert>
 		</widget>
@@ -148,11 +149,11 @@
 		<widget borderColor="FdLcdAmber" borderWidth="2" position="0,140" render="Progress" size="392,20" source="parent.Event" transparent="1" zPosition="2">
 			<convert type="EventTime">Progress</convert>
 		</widget>
-		<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="198,70" source="parent.Event" transparent="1" valign="center">
+		<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="200,70" source="parent.Event" transparent="1" valign="center">
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<widget font="FdLcD;60" halign="right" position="198,170" render="Label" size="194,70" source="parent.Event" transparent="1" valign="center">
+		<widget font="FdLcD;60" halign="right" position="200,170" render="Label" size="196,70" source="parent.Event" transparent="1" valign="center">
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">VFDOnlyMinutes</convert>
 		</widget>
@@ -165,11 +166,11 @@
 		<widget borderColor="FdLcdAmber" borderWidth="2" position="0,140" render="Progress" size="392,20" source="parent.Event" transparent="1" zPosition="2">
 			<convert type="EventTime">Progress</convert>
 		</widget>
-		<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="198,70" source="parent.Event" transparent="1" valign="center">
+		<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="200,70" source="parent.Event" transparent="1" valign="center">
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<widget font="FdLcD;60" halign="right" position="198,170" render="Label" size="194,70" source="parent.Event" transparent="1" valign="center">
+		<widget font="FdLcD;60" halign="right" position="200,170" render="Label" size="196,70" source="parent.Event" transparent="1" valign="center">
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">VFDOnlyMinutes</convert>
 		</widget>
@@ -201,7 +202,7 @@
 		<widget borderColor="FdLcdAmber" borderWidth="2" position="0,140" render="Progress" size="392,20" source="session.Event_Now" transparent="1" zPosition="2">
 			<convert type="EventTime">Progress</convert>
 		</widget>
-		<widget font="FdLcD;60" halign="right" position="198,170" render="Label" size="194,70" source="session.Event_Now" transparent="1" valign="center">
+		<widget font="FdLcD;60" halign="right" position="200,170" render="Label" size="196,70" source="session.Event_Now" transparent="1" valign="center">
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">VFDOnlyMinutes</convert>
 		</widget>
@@ -254,18 +255,18 @@
 	</screen>
 	<screen name="MessageBoxSimpleSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;30" halign="center" position="2,2" render="Label" size="392,176" source="parent.Text" transparent="1" valign="center" zPosition="2"/>
-		<widget font="FdLcD;45" halign="center" noWrap="1" position="2,180" render="Label" size="392,60" source="parent.selectedChoice" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;30" halign="center" position="0,0" render="Label" size="392,180" source="parent.Text" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;45" halign="center" noWrap="1" position="0,180" render="Label" size="392,60" source="parent.selectedChoice" transparent="1" valign="center" zPosition="2"/>
 	</screen>
 	<screen name="MessageBoxSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;30" halign="center" position="2,2" render="Label" size="392,176" source="parent.Text" transparent="1" valign="center" zPosition="2"/>
-		<widget font="FdLcD;45" halign="center" noWrap="1" position="2,180" render="Label" size="392,60" source="parent.selectedChoice" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;30" halign="center" position="0,0" render="Label" size="392,180" source="parent.Text" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;45" halign="center" noWrap="1" position="0,180" render="Label" size="392,60" source="parent.selectedChoice" transparent="1" valign="center" zPosition="2"/>
 	</screen>
 	<screen name="MessageBoxWizardSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;30" halign="center" position="2,2" render="Label" size="392,176" source="parent.Text" transparent="1" valign="center" zPosition="2"/>
-		<widget font="FdLcD;45" halign="center" noWrap="1" position="2,180" render="Label" size="392,60" source="parent.selectedChoice" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;30" halign="center" position="0,0" render="Label" size="392,180" source="parent.Text" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;45" halign="center" noWrap="1" position="0,180" render="Label" size="392,60" source="parent.selectedChoice" transparent="1" valign="center" zPosition="2"/>
 	</screen>
 	<screen name="MovieContextMenuSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
@@ -319,8 +320,8 @@
 	<screen name="PluginBrowserSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
 		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
-		<widget font="FdLcD;45" halign="center" noWrap="1" position="0,65" render="Label" size="392,63" source="entry" transparent="1" zPosition="2"/>
-		<widget font="FdLcD;30" halign="center" position="0,128" render="Label" size="392,112" source="desc" transparent="1" zPosition="2"/>
+		<widget font="FdLcD;45" halign="center" noWrap="1" position="0,65" render="Label" size="392,65" source="entry" transparent="1" zPosition="2"/>
+		<widget font="FdLcD;30" halign="center" position="0,130" render="Label" size="392,110" source="desc" transparent="1" zPosition="2"/>
 	</screen>
 	<screen name="PowerTimerEditListSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
@@ -374,6 +375,11 @@
 		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,115" source="parent.package" transparent="1"/>
 		<widget font="FdLcD;30" halign="center" position="0,180" render="Label" size="295,60" source="parent.status" transparent="1" valign="center"/>
+	</screen>
+	<screen name="VirtualKeyBoardSummary" position="fill" resolution="396,240">
+		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
+		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,165" source="entry" transparent="1" zPosition="2"/>
 	</screen>
 	<screen name="WizardSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>

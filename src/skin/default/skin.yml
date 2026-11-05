@@ -90,4 +90,6 @@ skin:
     - xmlinc:
         file: "screen_UpdatePluginSummary.ymlinc"
     - xmlinc:
+        file: "screen_VirtualKeyBoardSummary.ymlinc"
+    - xmlinc:
         file: "screen_WizardSummary.ymlinc"
