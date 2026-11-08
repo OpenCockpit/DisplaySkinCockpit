@@ -1,0 +1,20 @@
+# The text that is being typed, from the sources of VirtualKeyBoardSummary ("entry" only). Without a screen of its own the
+# keyboard falls back to PluginBrowserSummary, which needs a "desc" source that the keyboard has not.
+screen:
+  name: "VirtualKeyBoardSummary"
+  position: "fill"
+  resolution: "396,240"
+  children:
+    - xmlinc:
+        file: "screenpart_LCDBackground.ymlinc"
+    - xmlinc:
+        file: "screenpart_LCDTitle.ymlinc"
+    - widget:
+        font: "$F_medium"
+        halign: "center"
+        position: "0,65"
+        render: "Label"
+        size: "$screen_width-4,165"
+        source: "entry"
+        transparent: "1"
+        zPosition: "2"

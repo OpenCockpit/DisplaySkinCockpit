@@ -1,0 +1,13 @@
+screen:
+  name: "EPGSelectionSummary"
+  position: "fill"
+  resolution: "396,240"
+  children:
+    - xmlinc:
+        file: "screenpart_LCDBackground.ymlinc"
+    - xmlinc:
+        file: "screenpart_LCDEPGChannelName.ymlinc"
+    - xmlinc:
+        file: "screenpart_LCDEPGProgress.ymlinc"
+    - xmlinc:
+        file: "screenpart_LCDEPGRemainingTime.ymlinc"

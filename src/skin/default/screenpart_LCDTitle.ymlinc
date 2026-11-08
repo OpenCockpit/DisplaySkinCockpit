@@ -1,0 +1,11 @@
+- widget:
+    font: "$F_big"
+    foregroundColor: "FdLcdTitleForeground"
+    halign: "center"
+    position: "0,0"
+    render: "Label"
+    size: "$screen_width-4,65"
+    source: "parent.title"
+    transparent: "1"
+    valign: "center"
+    zPosition: "2"

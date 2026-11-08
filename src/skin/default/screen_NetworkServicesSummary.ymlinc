@@ -1,0 +1,28 @@
+screen:
+  name: "NetworkServicesSummary"
+  position: "fill"
+  resolution: "396,240"
+  children:
+    - xmlinc:
+        file: "screenpart_LCDBackground.ymlinc"
+    - xmlinc:
+        file: "screenpart_LCDTitle.ymlinc"
+    - widget:
+        font: "$F_medium"
+        halign: "center"
+        position: "0,65"
+        render: "Label"
+        size: "$screen_width-4,115"
+        source: "status_summary"
+        transparent: "1"
+        valign: "center"
+        zPosition: "1"
+    - widget:
+        font: "$F_small"
+        halign: "center"
+        position: "0,180"
+        render: "Label"
+        size: "$screen_width-4,60"
+        source: "autostartstatus_summary"
+        transparent: "1"
+        valign: "center"

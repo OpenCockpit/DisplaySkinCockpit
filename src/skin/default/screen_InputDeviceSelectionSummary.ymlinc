@@ -1,0 +1,29 @@
+screen:
+  name: "InputDeviceSelectionSummary"
+  position: "fill"
+  resolution: "396,240"
+  children:
+    - xmlinc:
+        file: "screenpart_LCDBackground.ymlinc"
+    - xmlinc:
+        file: "screenpart_LCDTitle.ymlinc"
+    - widget:
+        position: "0,65"
+        render: "Listbox"
+        scrollbarMode: "showNever"
+        size: "$screen_width-4,160"
+        source: "parent.list"
+        transparent: "1"
+        children:
+          - convert:
+              type: "TemplatedMultiContent"
+              cell:
+                itemHeight: 80
+                fonts:
+                  - "$F_medium"
+                fields:
+                  - text:
+                      position: "0,0"
+                      size: "360,70"
+                      flags: RT_HALIGN_CENTER|RT_VALIGN_CENTER
+                      value: 1

@@ -1,0 +1,14 @@
+screen:
+  name: "IMDbLCDScreen"
+  position: "fill"
+  resolution: "396,240"
+  children:
+    - xmlinc:
+        file: "screenpart_LCDBackground.ymlinc"
+    - eLabel:
+        font: "$F_medium"
+        halign: "center"
+        position: "0,0"
+        size: "$screen_width-4,$screen_height"
+        text: "IMDB Search"
+        valign: "center"

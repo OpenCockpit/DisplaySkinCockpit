@@ -1,0 +1,16 @@
+- widget:
+    font: "$F_bigger"
+    halign: "left"
+    position: "0,$screen_height-70"
+    render: "Label"
+    size: "198,70"
+    source: "session.Event_Now"
+    transparent: "1"
+    valign: "center"
+    children:
+      - convert:
+          type: "EventTime"
+          text: "EndTime"
+      - convert:
+          type: "ClockToText"
+          text: "Format:>%H:%M"

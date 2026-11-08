@@ -1,0 +1,7 @@
+screen:
+  name: "EPGSelectionMultiSummary"
+  position: "fill"
+  resolution: "396,240"
+  children:
+    - xmlinc:
+        file: "screenpart_GraphicalEPGPIGSummary.ymlinc"

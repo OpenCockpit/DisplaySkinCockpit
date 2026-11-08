@@ -1,0 +1,14 @@
+- widget:
+    font: "$F_big"
+    halign: "center"
+    position: "0,0"
+    render: "Label"
+    size: "$screen_width-4,130"
+    source: "session.Event_Now"
+    transparent: "1"
+    valign: "center"
+    zPosition: "2"
+    children:
+      - convert:
+          type: "EventName"
+          text: "Name"

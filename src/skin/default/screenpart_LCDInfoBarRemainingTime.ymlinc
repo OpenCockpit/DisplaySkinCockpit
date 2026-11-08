@@ -1,0 +1,16 @@
+- widget:
+    font: "$F_bigger"
+    halign: "right"
+    position: "200,$screen_height-70"
+    render: "Label"
+    size: "196,70"
+    source: "session.Event_Now"
+    transparent: "1"
+    valign: "center"
+    children:
+      - convert:
+          type: "EventTime"
+          text: "Remaining"
+      - convert:
+          type: "RemainingToText"
+          text: "VFDOnlyMinutes"

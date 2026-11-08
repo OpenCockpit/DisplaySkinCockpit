@@ -1,3 +1,5 @@
-Package: enigma2-plugin-skins-lcdcockpit
-Version: 0.0.2
+Description: DisplaySkinCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-skins-displayskincockpit
 Architecture: all
+Depends: enigma2-plugin-skincomponents-componentscockpit

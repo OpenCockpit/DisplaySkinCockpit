@@ -1,0 +1,15 @@
+screen:
+  name: "InfoBarSummary"
+  position: "fill"
+  resolution: "396,240"
+  children:
+    - xmlinc:
+        file: "screenpart_LCDBackground.ymlinc"
+    - xmlinc:
+        file: "screenpart_LCDInfoBarProgramName.ymlinc"
+    - xmlinc:
+        file: "screenpart_LCDInfoBarProgress.ymlinc"
+    - xmlinc:
+        file: "screenpart_LCDInfoBarRemainingTime.ymlinc"
+    - xmlinc:
+        file: "screenpart_LCDInfoBarStartEndTime.ymlinc"

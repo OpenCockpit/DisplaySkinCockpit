@@ -1,0 +1,13 @@
+- widget:
+    borderColor: "FdLcdAmber"
+    borderWidth: "2"
+    position: "0,140"
+    render: "Progress"
+    size: "$screen_width-4,20"
+    source: "parent.Event"
+    transparent: "1"
+    zPosition: "2"
+    children:
+      - convert:
+          type: "EventTime"
+          text: "Progress"

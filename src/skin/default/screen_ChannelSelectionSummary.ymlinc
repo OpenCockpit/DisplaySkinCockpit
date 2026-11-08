@@ -1,0 +1,13 @@
+screen:
+  name: "ChannelSelectionSummary"
+  position: "fill"
+  resolution: "396,240"
+  children:
+    - xmlinc:
+        file: "screenpart_LCDBackground.ymlinc"
+    - xmlinc:
+        file: "screenpart_LCDChannelSelectionChannelName.ymlinc"
+    - xmlinc:
+        file: "screenpart_LCDChannelSelectionProgress.ymlinc"
+    - xmlinc:
+        file: "screenpart_LCDChannelSelectionRemainingTime.ymlinc"

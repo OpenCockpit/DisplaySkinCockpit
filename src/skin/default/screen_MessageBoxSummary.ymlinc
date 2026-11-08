@@ -1,0 +1,7 @@
+screen:
+  name: "MessageBoxSummary"
+  position: "fill"
+  resolution: "396,240"
+  children:
+    - xmlinc:
+        file: "screenpart_MessageBoxSummary.ymlinc"

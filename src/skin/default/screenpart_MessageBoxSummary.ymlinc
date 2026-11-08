@@ -1,0 +1,30 @@
+screen:
+  name: "MessageBoxSummary"
+  position: "fill"
+  resolution: "396,240"
+  children:
+    - xmlinc:
+        file: "screenpart_LCDBackground.ymlinc"
+    # the message: small enough for a whole sentence (about 25 characters a line, 5 lines), wrapped at words
+    - widget:
+        font: "$F_small"
+        halign: "center"
+        position: "0,0"
+        render: "Label"
+        size: "$screen_width-4,180"
+        source: "parent.Text"
+        transparent: "1"
+        valign: "center"
+        zPosition: "2"
+    # the selected choice (Yes / No / ...), one line below
+    - widget:
+        font: "$F_medium"
+        halign: "center"
+        noWrap: "1"
+        position: "0,180"
+        render: "Label"
+        size: "$screen_width-4,60"
+        source: "parent.selectedChoice"
+        transparent: "1"
+        valign: "center"
+        zPosition: "2"

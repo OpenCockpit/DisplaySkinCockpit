@@ -1,0 +1,29 @@
+screen:
+  name: "ServiceScanSummary"
+  position: "fill"
+  resolution: "396,240"
+  children:
+    - xmlinc:
+        file: "screenpart_LCDBackground.ymlinc"
+    - widget:
+        font: "$F_big"
+        halign: "center"
+        name: "Title"
+        position: "0,0"
+        render: "Label"
+        size: "$screen_width-4,65"
+        transparent: "1"
+        valign: "center"
+    - widget:
+        borderColor: "FdLcdAmber"
+        borderWidth: "2"
+        name: "scan_progress"
+        position: "0,180"
+        size: "$screen_width-4,60"
+        transparent: "1"
+    - widget:
+        font: "$F_medium"
+        name: "Service"
+        position: "0,65"
+        size: "$screen_width-4,115"
+        transparent: "1"
