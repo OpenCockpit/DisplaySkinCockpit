@@ -10,6 +10,3 @@ DisplaySkinCockpit is a skin for Enigma2 receivers with a 396x240 pixel LCD/VFD 
 
 ## Installation
 - https://OpenCockpit.github.io/DisplaySkinCockpit
-
-## Wiki
-- https://github.com/OpenCockpit/DisplaySkinCockpit/wiki

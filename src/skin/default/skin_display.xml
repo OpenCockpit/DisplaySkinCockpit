@@ -1,7 +1,6 @@
 <?xml version="1.0" ?>
 <skin>
 	<colors>
-		<color name="FdLcdTitleForeground" value="#7fffff"/>
 		<color name="FdLcdRed" value="#00f50808"/>
 		<color name="FdLcdBlack" value="#00000000"/>
 		<color name="FdLcdAmber" value="#fcc800"/>
@@ -31,7 +30,7 @@
 	</screen>
 	<screen name="AutoTimerOverviewSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,175" source="entry" transparent="1" zPosition="1"/>
 	</screen>
 	<screen name="ChannelSelectionRadioSummary" position="fill" resolution="396,240">
@@ -59,12 +58,12 @@
 	</screen>
 	<screen name="ChoiceBoxSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,165" source="parent.summary_selection" transparent="1" zPosition="2"/>
 	</screen>
 	<screen name="CommitInfoSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,165" source="commitText" transparent="1" zPosition="2"/>
 	</screen>
 	<screen name="EMCSelectionSummary" position="fill" resolution="396,240">
@@ -116,12 +115,12 @@
 	</screen>
 	<screen name="EventViewSimpleSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" position="0,65" render="Label" size="392,175" source="parent.summary_description" transparent="1"/>
 	</screen>
 	<screen name="EventViewSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" position="0,65" render="Label" size="392,175" source="parent.summary_description" transparent="1"/>
 	</screen>
 	<screen name="GraphicalEPGPIGSummary" position="fill" resolution="396,240">
@@ -213,7 +212,7 @@
 	</screen>
 	<screen name="InputDeviceSelectionSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget position="0,65" render="Listbox" scrollbarMode="showNever" size="392,160" source="parent.list" transparent="1">
 			<convert type="TemplatedMultiContent">
 			{
@@ -231,13 +230,13 @@
 		<widget font="FdLcD;55" halign="left" position="0,0" render="Label" size="392,65" source="parent.summary_job_name" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" halign="left" position="0,65" render="Label" size="392,65" source="parent.summary_job_task" transparent="1" valign="center" zPosition="2"/>
 		<widget borderColor="FdLcdAmber" borderWidth="2" position="0,130" render="Progress" size="392,65" source="parent.summary_job_progress" transparent="1" zPosition="3"/>
-		<widget font="FdLcD;30" foregroundColor="white" halign="center" position="0,130" render="Label" size="392,65" source="parent.summary_job_progress" transparent="1" valign="center" zPosition="4">
+		<widget font="FdLcD;30" halign="center" position="0,130" render="Label" size="392,65" source="parent.summary_job_progress" transparent="1" valign="center" zPosition="4">
 			<convert type="ProgressToText"/>
 		</widget>
 	</screen>
 	<screen name="LanguageSelectionSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,175" source="summarylangsel" transparent="1" zPosition="2"/>
 		<widget alphatest="blend" name="flag" position="155,160" scale="1" size="90,60" transparent="1" zPosition="100"/>
 	</screen>
@@ -248,7 +247,7 @@
 	</screen>
 	<screen name="MenuSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,175" source="parent.menu" transparent="1" zPosition="2">
 			<convert type="StringListSelection"/>
 		</widget>
@@ -270,7 +269,7 @@
 	</screen>
 	<screen name="MovieContextMenuSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,175" source="selected" transparent="1"/>
 	</screen>
 	<screen name="MovieSelectionSummary" position="fill" resolution="396,240">
@@ -286,13 +285,13 @@
 	</screen>
 	<screen name="NetworkServicesSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,115" source="status_summary" transparent="1" valign="center" zPosition="1"/>
 		<widget font="FdLcD;30" halign="center" position="0,180" render="Label" size="392,60" source="autostartstatus_summary" transparent="1" valign="center"/>
 	</screen>
 	<screen name="NimSelectionSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget position="0,65" render="Listbox" scrollbarMode="showNever" size="392,160" source="parent.nimlist" transparent="1">
 			<convert type="TemplatedMultiContent">
 			{
@@ -312,20 +311,20 @@
 	</screen>
 	<screen name="PackageManagerSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,160" source="parent.list" transparent="1">
 			<convert type="StringListSelection"/>
 		</widget>
 	</screen>
 	<screen name="PluginBrowserSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" halign="center" noWrap="1" position="0,65" render="Label" size="392,65" source="entry" transparent="1" zPosition="2"/>
 		<widget font="FdLcD;30" halign="center" position="0,130" render="Label" size="392,110" source="desc" transparent="1" zPosition="2"/>
 	</screen>
 	<screen name="PowerTimerEditListSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;30" halign="center" noWrap="1" position="0,65" render="Label" size="392,40" source="timertype" transparent="1" valign="center"/>
 		<widget font="FdLcD;30" halign="center" position="0,105" render="Label" size="392,40" source="time" transparent="1" valign="center"/>
 		<widget font="FdLcD;30" halign="center" position="0,145" render="Label" size="392,40" source="duration" transparent="1" valign="center"/>
@@ -353,7 +352,7 @@
 	</screen>
 	<screen name="SkinSelectorSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,115" source="Name" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;30" halign="center" position="0,180" render="Label" size="392,60" source="value" transparent="1" zPosition="2"/>
 	</screen>
@@ -372,13 +371,13 @@
 	</screen>
 	<screen name="UpdatePluginSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,115" source="parent.package" transparent="1"/>
 		<widget font="FdLcD;30" halign="center" position="0,180" render="Label" size="295,60" source="parent.status" transparent="1" valign="center"/>
 	</screen>
 	<screen name="VirtualKeyBoardSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" foregroundColor="FdLcdTitleForeground" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,165" source="entry" transparent="1" zPosition="2"/>
 	</screen>
 	<screen name="WizardSummary" position="fill" resolution="396,240">

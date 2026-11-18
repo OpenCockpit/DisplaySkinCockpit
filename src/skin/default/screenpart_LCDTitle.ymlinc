@@ -1,6 +1,5 @@
 - widget:
     font: "$F_big"
-    foregroundColor: "FdLcdTitleForeground"
     halign: "center"
     position: "0,0"
     render: "Label"

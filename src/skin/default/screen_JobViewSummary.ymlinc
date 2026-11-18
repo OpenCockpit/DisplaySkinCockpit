@@ -36,7 +36,6 @@ screen:
         zPosition: "3"
     - widget:
         font: "$F_small"
-        foregroundColor: "white"
         halign: "center"
         position: "0,130"
         render: "Label"
