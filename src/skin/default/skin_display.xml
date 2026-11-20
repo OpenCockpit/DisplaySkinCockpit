@@ -8,7 +8,6 @@
 	</colors>
 	<fonts>
 		<font filename="nmsbd.ttf" name="FdLcD" scale="100"/>
-		<font filename="OpenSans-Regular.ttf" name="FdLcDLight" scale="100"/>
 	</fonts>
 	<windowstyle id="1" type="skinned">
 		<color color="#000000" name="Background"/>
