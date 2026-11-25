@@ -106,7 +106,7 @@
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<widget font="FdLcD;60" halign="right" position="200,170" render="Label" size="196,70" source="parent.Event" transparent="1" valign="center">
+		<widget font="FdLcD;60" halign="right" position="200,170" render="Label" size="192,70" source="parent.Event" transparent="1" valign="center">
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">VFDOnlyMinutes</convert>
 		</widget>
@@ -123,7 +123,7 @@
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<widget font="FdLcD;60" halign="right" position="200,170" render="Label" size="196,70" source="parent.Event" transparent="1" valign="center">
+		<widget font="FdLcD;60" halign="right" position="200,170" render="Label" size="192,70" source="parent.Event" transparent="1" valign="center">
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">VFDOnlyMinutes</convert>
 		</widget>
@@ -150,7 +150,7 @@
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<widget font="FdLcD;60" halign="right" position="200,170" render="Label" size="196,70" source="parent.Event" transparent="1" valign="center">
+		<widget font="FdLcD;60" halign="right" position="200,170" render="Label" size="192,70" source="parent.Event" transparent="1" valign="center">
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">VFDOnlyMinutes</convert>
 		</widget>
@@ -167,7 +167,7 @@
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<widget font="FdLcD;60" halign="right" position="200,170" render="Label" size="196,70" source="parent.Event" transparent="1" valign="center">
+		<widget font="FdLcD;60" halign="right" position="200,170" render="Label" size="192,70" source="parent.Event" transparent="1" valign="center">
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">VFDOnlyMinutes</convert>
 		</widget>
@@ -184,7 +184,7 @@
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<widget font="FdLcD;60" halign="right" position="200,170" render="Label" size="196,70" source="parent.Event" transparent="1" valign="center">
+		<widget font="FdLcD;60" halign="right" position="200,170" render="Label" size="192,70" source="parent.Event" transparent="1" valign="center">
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">VFDOnlyMinutes</convert>
 		</widget>
@@ -216,7 +216,7 @@
 		<widget borderColor="FdLcdAmber" borderWidth="2" position="0,140" render="Progress" size="392,20" source="session.Event_Now" transparent="1" zPosition="2">
 			<convert type="EventTime">Progress</convert>
 		</widget>
-		<widget font="FdLcD;60" halign="right" position="200,170" render="Label" size="196,70" source="session.Event_Now" transparent="1" valign="center">
+		<widget font="FdLcD;60" halign="right" position="200,170" render="Label" size="192,70" source="session.Event_Now" transparent="1" valign="center">
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">VFDOnlyMinutes</convert>
 		</widget>

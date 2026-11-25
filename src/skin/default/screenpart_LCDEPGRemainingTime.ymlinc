@@ -18,7 +18,7 @@
     halign: "right"
     position: "200,$height-70"
     render: "Label"
-    size: "196,70"
+    size: "192,70"
     source: "parent.Event"
     valign: "center"
     children:
