@@ -2,8 +2,6 @@
     file: "display_colors.ymlinc"
 - xmlinc:
     file: "display_fonts.ymlinc"
-- xmlinc:
-    file: "display_defaults.ymlinc"
 
 - global:
     name: "imagepath"

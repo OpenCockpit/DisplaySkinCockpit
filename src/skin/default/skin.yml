@@ -3,6 +3,8 @@ skin:
     - xmlinc:
         file: "display_globals.ymlinc"
     - xmlinc:
+        file: "display_defaults.ymlinc"
+    - xmlinc:
         file: "windowstyle_1.ymlinc"
     - xmlinc:
         file: "screen_AboutSummary.ymlinc"
