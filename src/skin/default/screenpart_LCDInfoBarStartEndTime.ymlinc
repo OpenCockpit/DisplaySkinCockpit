@@ -3,7 +3,7 @@
     halign: "left"
     position: "0,$height-70"
     render: "Label"
-    size: "198,70"
+    size: "200,70"
     source: "session.Event_Now"
     valign: "center"
     children:

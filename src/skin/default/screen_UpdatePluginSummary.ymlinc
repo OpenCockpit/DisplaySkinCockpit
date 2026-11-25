@@ -17,6 +17,6 @@ screen:
         halign: "center"
         position: "0,180"
         render: "Label"
-        size: "295,60"
+        size: "$width,60"
         source: "parent.status"
         valign: "center"

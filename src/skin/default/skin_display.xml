@@ -220,7 +220,7 @@
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">VFDOnlyMinutes</convert>
 		</widget>
-		<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="198,70" source="session.Event_Now" transparent="1" valign="center">
+		<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="200,70" source="session.Event_Now" transparent="1" valign="center">
 			<convert type="EventTime">EndTime</convert>
 			<convert type="ClockToText">Format:&gt;%H:%M</convert>
 		</widget>
@@ -406,7 +406,7 @@
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
 		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,115" source="parent.package" transparent="1"/>
-		<widget font="FdLcD;30" halign="center" position="0,180" render="Label" size="295,60" source="parent.status" transparent="1" valign="center"/>
+		<widget font="FdLcD;30" halign="center" position="0,180" render="Label" size="392,60" source="parent.status" transparent="1" valign="center"/>
 	</screen>
 	<screen name="VideoWizardSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
