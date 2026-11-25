@@ -1,0 +1,17 @@
+# The defaults of a display skin (the skin of the LCD, DisplaySkinCockpit): what an element that does not set an attribute itself gets, written
+# like defaults.ymlinc of the main skins, which a display skin does not include (it sets the window frame and a 1920x1080 resolution).
+# An element that sets an attribute keeps its own value.
+
+- defaults:
+    children:
+      # A screen of the display: the size of the LCD, filling it. A screen with a name only, like the main skins: the screen entries
+      # without one are no screens, enigma2 reads nothing else of them.
+      - screen:
+          if name:
+            position: "fill"
+            resolution: "396,240"
+
+      # A text on the display lies over the background picture of its screen, it has none of its own.
+      - widget:
+          if render=Label:
+            transparent: "1"

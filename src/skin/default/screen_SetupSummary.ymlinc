@@ -1,7 +1,5 @@
 screen:
   name: "SetupSummary"
-  position: "fill"
-  resolution: "396,240"
   children:
     - xmlinc:
         file: "screenpart_LCDBackground.ymlinc"
@@ -11,9 +9,8 @@ screen:
         noWrap: "1"
         position: "0,0"
         render: "Label"
-        size: "$screen_width-4,65"
+        size: "$width,65"
         source: "SetupTitle"
-        transparent: "1"
         valign: "center"
         zPosition: "2"
     - widget:
@@ -22,17 +19,15 @@ screen:
         noWrap: "1"
         position: "0,65"
         render: "Label"
-        size: "$screen_width-4,55"
+        size: "$width,55"
         source: "SetupEntry"
-        transparent: "1"
         zPosition: "2"
     - widget:
         font: "$F_medium"
         halign: "center"
         position: "0,120"
         render: "Label"
-        size: "$screen_width-4,115"
+        size: "$width,115"
         source: "SetupValue"
-        transparent: "1"
         valign: "center"
         zPosition: "2"

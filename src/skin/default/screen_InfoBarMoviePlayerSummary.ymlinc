@@ -1,7 +1,5 @@
 screen:
   name: "InfoBarMoviePlayerSummary"
-  position: "fill"
-  resolution: "396,240"
   children:
     - xmlinc:
         file: "screenpart_LCDBackground.ymlinc"
@@ -10,9 +8,8 @@ screen:
         halign: "center"
         position: "0,0"
         render: "Label"
-        size: "$screen_width-4,130"
+        size: "$width,130"
         source: "session.CurrentService"
-        transparent: "1"
         valign: "center"
         zPosition: "2"
         children:
@@ -21,29 +18,5 @@ screen:
               text: "Name"
     - xmlinc:
         file: "screenpart_LCDInfoBarMovieProgress.ymlinc"
-    - widget:
-        font: "$F_bigger"
-        halign: "left"
-        position: "0,$screen_height-70"
-        render: "Label"
-        size: "230,70"
-        source: "session.CurrentService"
-        transparent: "1"
-        valign: "center"
-        children:
-          - convert:
-              type: "COCServicePosition"
-              text: "EndTime,ShowNoSeconds"
-    - widget:
-        font: "$F_bigger"
-        halign: "right"
-        position: "230,$screen_height-70"
-        render: "Label"
-        size: "$screen_width-4-230,70"
-        source: "session.CurrentService"
-        transparent: "1"
-        valign: "center"
-        children:
-          - convert:
-              type: "COCServicePosition"
-              text: "Remaining,ShowNoSeconds"
+    - xmlinc:
+        file: "screenpart_LCDInfoBarMovieEndRemaining.ymlinc"

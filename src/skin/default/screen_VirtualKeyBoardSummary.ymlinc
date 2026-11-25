@@ -2,8 +2,6 @@
 # keyboard falls back to PluginBrowserSummary, which needs a "desc" source that the keyboard has not.
 screen:
   name: "VirtualKeyBoardSummary"
-  position: "fill"
-  resolution: "396,240"
   children:
     - xmlinc:
         file: "screenpart_LCDBackground.ymlinc"
@@ -14,7 +12,6 @@ screen:
         halign: "center"
         position: "0,65"
         render: "Label"
-        size: "$screen_width-4,165"
+        size: "$width,165"
         source: "entry"
-        transparent: "1"
         zPosition: "2"

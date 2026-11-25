@@ -1,0 +1,34 @@
+screen:
+  name: "DVDSummary"
+  children:
+    - xmlinc:
+        file: "screenpart_LCDBackground.ymlinc"
+    - widget:
+        font: "$F_big"
+        halign: "center"
+        noWrap: "1"
+        position: "0,0"
+        render: "Label"
+        size: "$width,70"
+        source: "session.CurrentService"
+        valign: "center"
+        zPosition: "2"
+        children:
+          - convert:
+              type: "ServiceName"
+              text: "Name"
+    # the chapter of the DVD (Label of DVDSummary, set by the DVD player)
+    - widget:
+        font: "$F_medium"
+        halign: "center"
+        name: "Chapter"
+        noWrap: "1"
+        position: "0,70"
+        size: "$width,65"
+        transparent: "1"
+        valign: "center"
+        zPosition: "2"
+    - xmlinc:
+        file: "screenpart_LCDInfoBarMovieProgress.ymlinc"
+    - xmlinc:
+        file: "screenpart_LCDInfoBarMovieEndRemaining.ymlinc"

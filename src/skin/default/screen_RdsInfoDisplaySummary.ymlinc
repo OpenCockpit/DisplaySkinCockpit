@@ -1,0 +1,15 @@
+screen:
+  name: "RdsInfoDisplaySummary"
+  children:
+    - xmlinc:
+        file: "screenpart_LCDBackground.ymlinc"
+    # the RDS radio text (RdsInfoDisplaySummary shows the screen only while there is one)
+    - widget:
+        font: "$F_medium"
+        halign: "center"
+        position: "0,0"
+        render: "Label"
+        size: "$width,$height"
+        source: "message"
+        valign: "center"
+        zPosition: "2"

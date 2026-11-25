@@ -1,7 +1,5 @@
 screen:
   name: "ChannelSelectionRadioSummary"
-  position: "fill"
-  resolution: "396,240"
   children:
     - xmlinc:
         file: "screenpart_LCDBackground.ymlinc"
@@ -10,9 +8,8 @@ screen:
         halign: "center"
         position: "0,0"
         render: "Label"
-        size: "$screen_width-4,$screen_height"
+        size: "$width,$height"
         source: "parent.RdsDecoder"
-        transparent: "1"
         valign: "center"
         zPosition: "2"
         children:

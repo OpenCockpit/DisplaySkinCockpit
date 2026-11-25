@@ -1,7 +1,5 @@
 screen:
   name: "UpdatePluginSummary"
-  position: "fill"
-  resolution: "396,240"
   children:
     - xmlinc:
         file: "screenpart_LCDBackground.ymlinc"
@@ -12,9 +10,8 @@ screen:
         halign: "center"
         position: "0,65"
         render: "Label"
-        size: "$screen_width-4,115"
+        size: "$width,115"
         source: "parent.package"
-        transparent: "1"
     - widget:
         font: "$F_small"
         halign: "center"
@@ -22,5 +19,4 @@ screen:
         render: "Label"
         size: "295,60"
         source: "parent.status"
-        transparent: "1"
         valign: "center"

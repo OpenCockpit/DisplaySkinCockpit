@@ -1,7 +1,5 @@
 screen:
   name: "NetworkServicesSummary"
-  position: "fill"
-  resolution: "396,240"
   children:
     - xmlinc:
         file: "screenpart_LCDBackground.ymlinc"
@@ -12,9 +10,8 @@ screen:
         halign: "center"
         position: "0,65"
         render: "Label"
-        size: "$screen_width-4,115"
+        size: "$width,115"
         source: "status_summary"
-        transparent: "1"
         valign: "center"
         zPosition: "1"
     - widget:
@@ -22,7 +19,6 @@ screen:
         halign: "center"
         position: "0,180"
         render: "Label"
-        size: "$screen_width-4,60"
+        size: "$width,60"
         source: "autostartstatus_summary"
-        transparent: "1"
         valign: "center"

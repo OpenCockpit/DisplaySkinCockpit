@@ -3,9 +3,8 @@
     halign: "center"
     position: "0,0"
     render: "Label"
-    size: "$screen_width-4,130"
+    size: "$width,130"
     source: "session.Event_Now"
-    transparent: "1"
     valign: "center"
     zPosition: "2"
     children:

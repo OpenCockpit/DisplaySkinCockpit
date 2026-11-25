@@ -1,7 +1,5 @@
 screen:
   name: "AutoTimerOverviewSummary"
-  position: "fill"
-  resolution: "396,240"
   children:
     - xmlinc:
         file: "screenpart_LCDBackground.ymlinc"
@@ -12,7 +10,6 @@ screen:
         halign: "center"
         position: "0,65"
         render: "Label"
-        size: "$screen_width-4,$screen_height-65"
+        size: "$width,$height-65"
         source: "entry"
-        transparent: "1"
         zPosition: "1"

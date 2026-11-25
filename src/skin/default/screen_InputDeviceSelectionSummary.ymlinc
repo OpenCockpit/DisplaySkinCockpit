@@ -1,7 +1,5 @@
 screen:
   name: "InputDeviceSelectionSummary"
-  position: "fill"
-  resolution: "396,240"
   children:
     - xmlinc:
         file: "screenpart_LCDBackground.ymlinc"
@@ -11,7 +9,7 @@ screen:
         position: "0,65"
         render: "Listbox"
         scrollbarMode: "showNever"
-        size: "$screen_width-4,160"
+        size: "$width,160"
         source: "parent.list"
         transparent: "1"
         children:

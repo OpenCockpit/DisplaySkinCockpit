@@ -1,0 +1,40 @@
+screen:
+  name: "MediaPlayerLCDScreen"
+  children:
+    - xmlinc:
+        file: "screenpart_LCDBackground.ymlinc"
+    # the lines of the media player (Labels of MediaPlayerLCDScreen): it pads them with spaces, so they are left aligned
+    - widget:
+        font: "$F_medium"
+        halign: "left"
+        name: "text1"
+        noWrap: "1"
+        position: "0,0"
+        size: "$width,70"
+        transparent: "1"
+        valign: "center"
+        zPosition: "2"
+    - widget:
+        font: "$F_small"
+        halign: "left"
+        name: "text3"
+        noWrap: "1"
+        position: "0,70"
+        size: "$width,35"
+        transparent: "1"
+        valign: "center"
+        zPosition: "2"
+    - widget:
+        font: "$F_small"
+        halign: "left"
+        name: "text4"
+        noWrap: "1"
+        position: "0,105"
+        size: "$width,35"
+        transparent: "1"
+        valign: "center"
+        zPosition: "2"
+    - xmlinc:
+        file: "screenpart_LCDInfoBarMovieProgress.ymlinc"
+    - xmlinc:
+        file: "screenpart_LCDInfoBarMovieEndRemaining.ymlinc"

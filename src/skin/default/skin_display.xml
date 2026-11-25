@@ -65,6 +65,22 @@
 		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,165" source="commitText" transparent="1" zPosition="2"/>
 	</screen>
+	<screen name="DVDSummary" position="fill" resolution="396,240">
+		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
+		<widget font="FdLcD;55" halign="center" noWrap="1" position="0,0" render="Label" size="392,70" source="session.CurrentService" transparent="1" valign="center" zPosition="2">
+			<convert type="ServiceName">Name</convert>
+		</widget>
+		<widget font="FdLcD;45" halign="center" name="Chapter" noWrap="1" position="0,70" size="392,65" transparent="1" valign="center" zPosition="2"/>
+		<widget borderColor="FdLcdAmber" borderWidth="2" position="0,140" render="Progress" size="392,20" source="session.CurrentService" transparent="1" zPosition="2">
+			<convert type="ServicePosition">VFDPosition</convert>
+		</widget>
+		<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="230,70" source="session.CurrentService" transparent="1" valign="center">
+			<convert type="COCServicePosition">EndTime,ShowNoSeconds</convert>
+		</widget>
+		<widget font="FdLcD;60" halign="right" position="230,170" render="Label" size="162,70" source="session.CurrentService" transparent="1" valign="center">
+			<convert type="COCServicePosition">Remaining,ShowNoSeconds</convert>
+		</widget>
+	</screen>
 	<screen name="EMCSelectionSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
 		<widget font="FdLcD;45" halign="center" position="0,0" render="Label" size="392,170" source="parent.Service" transparent="1" valign="center" zPosition="2">
@@ -243,6 +259,21 @@
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
 		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.summarytext" transparent="1" valign="center" zPosition="2"/>
 	</screen>
+	<screen name="MediaPlayerLCDScreen" position="fill" resolution="396,240">
+		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
+		<widget font="FdLcD;45" halign="left" name="text1" noWrap="1" position="0,0" size="392,70" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;30" halign="left" name="text3" noWrap="1" position="0,70" size="392,35" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;30" halign="left" name="text4" noWrap="1" position="0,105" size="392,35" transparent="1" valign="center" zPosition="2"/>
+		<widget borderColor="FdLcdAmber" borderWidth="2" position="0,140" render="Progress" size="392,20" source="session.CurrentService" transparent="1" zPosition="2">
+			<convert type="ServicePosition">VFDPosition</convert>
+		</widget>
+		<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="230,70" source="session.CurrentService" transparent="1" valign="center">
+			<convert type="COCServicePosition">EndTime,ShowNoSeconds</convert>
+		</widget>
+		<widget font="FdLcD;60" halign="right" position="230,170" render="Label" size="162,70" source="session.CurrentService" transparent="1" valign="center">
+			<convert type="COCServicePosition">Remaining,ShowNoSeconds</convert>
+		</widget>
+	</screen>
 	<screen name="MenuSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
 		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
@@ -328,6 +359,10 @@
 		<widget font="FdLcD;30" halign="center" position="0,145" render="Label" size="392,40" source="duration" transparent="1" valign="center"/>
 		<widget font="FdLcD;30" halign="center" position="0,185" render="Label" size="392,40" source="state" transparent="1" valign="center"/>
 	</screen>
+	<screen name="RdsInfoDisplaySummary" position="fill" resolution="396,240">
+		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
+		<widget font="FdLcD;45" halign="center" position="0,0" render="Label" size="392,240" source="message" transparent="1" valign="center" zPosition="2"/>
+	</screen>
 	<screen name="ScreenSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
 		<widget font="FdLcD;45" halign="center" position="0,0" render="Label" size="392,215" source="Title" transparent="1"/>
@@ -372,6 +407,13 @@
 		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="parent.title" transparent="1" valign="center" zPosition="2"/>
 		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,115" source="parent.package" transparent="1"/>
 		<widget font="FdLcD;30" halign="center" position="0,180" render="Label" size="295,60" source="parent.status" transparent="1" valign="center"/>
+	</screen>
+	<screen name="VideoWizardSummary" position="fill" resolution="396,240">
+		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,65" source="text" transparent="1" valign="center"/>
+		<widget font="FdLcD;45" halign="center" position="0,65" render="Label" size="392,175" source="parent.list" transparent="1">
+			<convert type="StringListSelection"/>
+		</widget>
 	</screen>
 	<screen name="VirtualKeyBoardSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>

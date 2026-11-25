@@ -1,7 +1,5 @@
 screen:
   name: "ServiceInfoSummary"
-  position: "fill"
-  resolution: "396,240"
   children:
     - xmlinc:
         file: "screenpart_LCDBackground.ymlinc"
@@ -10,6 +8,5 @@ screen:
         noWrap: "1"
         position: "0,0"
         render: "Label"
-        size: "$screen_width-4,$screen_height-25"
+        size: "$width,$height-25"
         source: "info"
-        transparent: "1"

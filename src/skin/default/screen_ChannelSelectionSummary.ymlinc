@@ -1,7 +1,5 @@
 screen:
   name: "ChannelSelectionSummary"
-  position: "fill"
-  resolution: "396,240"
   children:
     - xmlinc:
         file: "screenpart_LCDBackground.ymlinc"

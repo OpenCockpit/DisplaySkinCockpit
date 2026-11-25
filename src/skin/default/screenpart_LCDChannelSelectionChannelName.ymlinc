@@ -4,7 +4,7 @@
     options: "movetype=running,startpoint=0,direction=left,steptime=80,repeat=3,always=0,oneshot=1,startdelay=6000,wrap"
     position: "0,0"
     render: "RunningText"
-    size: "$screen_width-4,130"
+    size: "$width,130"
     source: "parent.ServiceEvent"
     transparent: "1"
     valign: "center"

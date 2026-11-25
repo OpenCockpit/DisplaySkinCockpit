@@ -2,9 +2,6 @@ skin:
   children:
     - xmlinc:
         file: "display_globals.ymlinc"
-    - global:
-        name: "imagepath"
-        value: "~"
     - xmlinc:
         file: "windowstyle_1.ymlinc"
     - xmlinc:
@@ -19,6 +16,8 @@ skin:
         file: "screen_ChoiceBoxSummary.ymlinc"
     - xmlinc:
         file: "screen_CommitInfoSummary.ymlinc"
+    - xmlinc:
+        file: "screen_DVDSummary.ymlinc"
     - xmlinc:
         file: "screen_EMCSelectionSummary.ymlinc"
     - xmlinc:
@@ -50,6 +49,8 @@ skin:
     - xmlinc:
         file: "screen_LanguageWizardSummary.ymlinc"
     - xmlinc:
+        file: "screen_MediaPlayerLCDScreen.ymlinc"
+    - xmlinc:
         file: "screen_MenuSummary.ymlinc"
     - xmlinc:
         file: "screen_MessageBoxSimpleSummary.ymlinc"
@@ -74,6 +75,8 @@ skin:
     - xmlinc:
         file: "screen_PowerTimerEditListSummary.ymlinc"
     - xmlinc:
+        file: "screen_RdsInfoDisplaySummary.ymlinc"
+    - xmlinc:
         file: "screen_ScreenSummary.ymlinc"
     - xmlinc:
         file: "screen_ServiceInfoSummary.ymlinc"
@@ -89,6 +92,8 @@ skin:
         file: "screen_TimerEditListSummary.ymlinc"
     - xmlinc:
         file: "screen_UpdatePluginSummary.ymlinc"
+    - xmlinc:
+        file: "screen_VideoWizardSummary.ymlinc"
     - xmlinc:
         file: "screen_VirtualKeyBoardSummary.ymlinc"
     - xmlinc:

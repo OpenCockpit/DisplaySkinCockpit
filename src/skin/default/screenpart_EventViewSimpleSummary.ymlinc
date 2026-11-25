@@ -6,6 +6,5 @@
     font: "$F_medium"
     position: "0,65"
     render: "Label"
-    size: "$screen_width-4,175"
+    size: "$width,175"
     source: "parent.summary_description"
-    transparent: "1"

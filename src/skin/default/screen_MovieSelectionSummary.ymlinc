@@ -1,7 +1,5 @@
 screen:
   name: "MovieSelectionSummary"
-  position: "fill"
-  resolution: "396,240"
   children:
     - xmlinc:
         file: "screenpart_LCDBackground.ymlinc"
@@ -10,19 +8,17 @@ screen:
         halign: "center"
         position: "0,0"
         render: "Label"
-        size: "$screen_width-4,$screen_height-70"
+        size: "$width,$height-70"
         source: "name"
-        transparent: "1"
         valign: "center"
         zPosition: "2"
     - widget:
         font: "$F_bigger"
         halign: "left"
-        position: "0,$screen_height-70"
+        position: "0,$height-70"
         render: "Label"
         size: "300,70"
         source: "parent.Service"
-        transparent: "1"
         valign: "center"
         children:
           - convert:
@@ -31,11 +27,10 @@ screen:
     - widget:
         font: "$F_bigger"
         halign: "right"
-        position: "300,$screen_height-70"
+        position: "300,$height-70"
         render: "Label"
         size: "92,70"
         source: "parent.Service"
-        transparent: "1"
         valign: "center"
         children:
           - convert:

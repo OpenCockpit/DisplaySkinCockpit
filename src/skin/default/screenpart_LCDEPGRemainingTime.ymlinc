@@ -1,11 +1,10 @@
 - widget:
     font: "$F_bigger"
     halign: "left"
-    position: "0,$screen_height-70"
+    position: "0,$height-70"
     render: "Label"
     size: "200,70"
     source: "parent.Event"
-    transparent: "1"
     valign: "center"
     children:
       - convert:
@@ -17,11 +16,10 @@
 - widget:
     font: "$F_bigger"
     halign: "right"
-    position: "200,$screen_height-70"
+    position: "200,$height-70"
     render: "Label"
     size: "196,70"
     source: "parent.Event"
-    transparent: "1"
     valign: "center"
     children:
       - convert:

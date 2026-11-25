@@ -1,0 +1,7 @@
+screen:
+  name: "VideoWizardSummary"
+  children:
+    - xmlinc:
+        file: "screenpart_LCDBackground.ymlinc"
+    - xmlinc:
+        file: "screenpart_WizardSummary.ymlinc"
